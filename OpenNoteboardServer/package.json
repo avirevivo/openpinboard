@@ -1,0 +1,13 @@
+{
+  "name": "Open-NoteBoard-Server",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "3.2.4",
+    "mongodb": "~2.0",
+    "socket.io": "0.9.14"
+  }
+}

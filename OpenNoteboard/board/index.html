@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Open Pinboard - Your Real Virtual Pinboard</title>
+    <meta name="description" content="A fun way to collaborate with your friends by simulating a real pinboard!">
+    <meta name="keywords" content="pin, pinboard, board, share, collaboration, chat, notes, note">
+    <meta property="og:title" content="Open Pinboard">
+    <meta property="og:description" content="A fun way to collaborate with your friends by simulating a real pinboard!">
+    <meta property="og:url" content="http://www.open-pinboard.com">
+    <meta property="og:image" content="http://www.open-pinboard.com/assets/facebook.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <link rel="stylesheet" type="text/css" href="../style/base.css">
+    <link rel="stylesheet" type="text/css" href="../libs/jquery.confirm/jquery.confirm.css" />
+    <link href='http://fonts.googleapis.com/css?family=Handlee' rel='stylesheet' type='text/css'>
+    <script type="text/javascript">var switchTo5x=true;</script>
+    <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+    <script type="text/javascript" src="http://s.sharethis.com/loader.js"></script>
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-9309969-3', 'open-pinboard.com');
+        ga('send', 'pageview');
+
+    </script>
+</head>
+<body>
+    <div id="notes-app"></div>
+
+    <!-- RequireJS initialization -->
+    <script data-main="../main" src="../libs/require.js"></script>
+    <script type="text/javascript">stLight.options({publisher: "795b751d-5c62-45cb-ab59-b54b14b3d073", doNotHash: true, doNotCopy: true, hashAddressBar: false});</script>
+
+    <!-- Templates -->
+    <script type="text/template" id="app-template">
+        <div id="view-notes">
+            <div id="create-new-board-link"><a href="/" target="_blank">click here to create a new pinboard</a></div>
+            <div id="add-note" class="add-note-container"></div>
+            <div class="frame"></div>
+            <div id="notes-list"></div>
+        </div>
+
+    </script>
+
+    <script type="text/template" id="note-template">
+        <div class="note">
+            <i class="pin"></i>
+            <div class="noteText"><%= noteText %></div>
+            <div class="by"><%= by %></div>
+            <button class="note-delete-button minimal">x</button>
+        </div>
+    </script>
+
+    <script type="text/template" id="add-note-template">
+        note&nbsp;&nbsp;
+        <input type="text" id="add-note-text" maxlength="144" class="mac" />&nbsp;&nbsp;by&nbsp;&nbsp;
+        <input class="mac" type="text" maxlength="20" id="by-text" />&nbsp;
+        <button class="add-note-button modern">Pin</button>
+    </script>
+
+    <script>
+        var options={ "publisher": "795b751d-5c62-45cb-ab59-b54b14b3d073", "position": "right", "ad": { "visible": false, "openDelay": 5, "closeDelay": 0}, "chicklets": { "items": ["facebook", "twitter", "linkedin", "email"]}};
+        var st_hover_widget = new sharethis.widgets.hoverbuttons(options);
+    </script>
+</body>
+</html>
+
+

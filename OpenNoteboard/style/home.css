@@ -1,0 +1,199 @@
+html
+{
+    height: 100%;
+}
+
+body
+{
+    background-image: url("../assets/wood_floor_optimized.jpg");
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    -webkit-box-shadow: inset 0px 0px 285px rgba(0,0,0,0.8);
+    -moz-box-shadow:    inset 0px 0px 285px rgba(0,0,0,0.8);
+    box-shadow:         inset 0px 0px 285px rgba(0,0,0,0.8);
+    display: table;
+    font-size: 65%;
+
+    -webkit-user-select: none; /* Chrome/Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+ */
+}
+
+/*@media all and (max-width: 1281px) { body { font-size: 90%; } }*/
+
+.center
+{
+    width: 100%;
+    color: #fff;
+    text-shadow: 2px 2px 2px #444;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 10%;
+    padding-left: 10%;
+    font-family: 'Handlee', cursive;
+}
+
+.center .header
+{
+    font-size: 10em;
+}
+
+.center .text
+{
+    font-size: 3em;
+}
+
+.center .additional-text
+{
+    font-size: 2em;
+}
+
+.contact
+{
+    font-size: 190%;
+    margin-bottom: 20px;
+}
+.contact a:link, .contact a:visited, .contact a:active
+{
+
+    color: #fff;
+}
+.contact a:hover
+{
+
+    text-shadow: none;
+    color: #555;
+}
+
+
+/* button */
+
+.button {
+    position: relative;
+    border: none;
+    display: inline-block;
+    box-shadow: inset 0px 0px 0px 1px rgba(0,0,0,0.2),
+    inset 0px -5px 0px 0px rgba(0,0,0,0.3),
+    inset 0px 2px 0px 0px rgba(255,255,255,0.5);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    overflow: hidden;
+    cursor: pointer;
+    margin: 36px;
+    font-size: 30px;
+}
+.button:active {
+    box-shadow: inset 0px 0px 0px 1px rgba(0,0,0,0.2),
+    inset 0px -2px 0px 0px rgba(0,0,0,0.3),
+    inset 0px 2px 0px 0px rgba(255,255,255,0.5);
+    top: 3px;
+}
+.button div {
+    padding: 10px 20px 12px 20px;
+    color: rgba(0,0,0,0.7);
+    text-shadow: 1px 1px 0px rgba(255,255,255,0.4);
+}
+.button:active div {
+    padding-bottom: 9px;
+}
+.wood {
+    background: url(http://subtlepatterns.com/patterns/wood_pattern.png);
+}
+.wood2 {
+    background: url(http://subtlepatterns.com/patterns/tileable_wood_texture.png);
+}
+
+.shine {
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIwLjYyIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmZmZmYiIHN0b3Atb3BhY2l0eT0iMCIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top,  rgba(255,255,255,0.62) 0%, rgba(255,255,255,0) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.62)), color-stop(100%,rgba(255,255,255,0)));
+    background: -webkit-linear-gradient(top,  rgba(255,255,255,0.62) 0%,rgba(255,255,255,0) 100%);
+    background: -o-linear-gradient(top,  rgba(255,255,255,0.62) 0%,rgba(255,255,255,0) 100%);
+    background: -ms-linear-gradient(top,  rgba(255,255,255,0.62) 0%,rgba(255,255,255,0) 100%);
+    background: linear-gradient(top,  rgba(255,255,255,0.62) 0%,rgba(255,255,255,0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9effffff', endColorstr='#00ffffff',GradientType=0 );
+}
+
+.url-location {
+    display: none;
+}
+
+#box
+{
+    position: relative;
+    width: 60%;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    padding: 1em 0.5em;
+    color: rgba(0,0,0, .2);
+    text-shadow: 0 1px 0 #fff;
+    line-height: 1.5;
+    margin: 20px auto;
+    font-size: 2em;
+
+
+    background-image: url('../assets/lined_paper.png');
+}
+
+
+#box:before, #box:after
+{
+    z-index: -1;
+    position: absolute;
+    content: "";
+    bottom: 15px;
+    left: 10px;
+    width: 50%;
+    top: 80%;
+    max-width:300px;
+    background: rgba(0, 0, 0, 0.7);
+    -webkit-box-shadow: 0 15px 10px rgba(0,0,0, 0.7);
+    -moz-box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7);
+    box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7);
+    -webkit-transform: rotate(-3deg);
+    -moz-transform: rotate(-3deg);
+    -o-transform: rotate(-3deg);
+    -ms-transform: rotate(-3deg);
+    transform: rotate(-3deg);
+}
+
+#box:after
+{
+    -webkit-transform: rotate(3deg);
+    -moz-transform: rotate(3deg);
+    -o-transform: rotate(3deg);
+    -ms-transform: rotate(3deg);
+    transform: rotate(3deg);
+    right: 10px;
+    left: auto;
+}
+
+a:link, a:visited, a:active
+{
+    color: dodgerblue;
+    text-decoration: none;
+}
+a:hover
+{
+    color: #aaa;
+    text-decoration: none;
+}
+
+#share-links
+{
+    text-shadow: none;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+

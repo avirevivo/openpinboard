@@ -1,0 +1,207 @@
+body{
+    font-family: Handlee;
+    margin:0;
+    background-image: url("../assets/wood_floor_optimized.jpg");
+    color:#fff;
+    padding:0;
+    font-size: 100%;
+    font-weight:normal;
+}
+
+#notes-list
+{
+    margin-top: 10px;
+    font-size: 1.3em;
+}
+
+/*@media all and (max-width: 1280px) { #notes-list { font-size: 1.5em; } }*/
+/*@media all and (max-width: 1024px) { #notes-list { font-size: 1.7em; } }*/
+
+#create-new-board-link
+{
+    position: absolute;
+    top: 2px;
+    right: 7px;
+    font-size: 85%;
+}
+
+a:visited,  a:active, a:link
+{
+    color: #555;
+    text-decoration: none;
+}
+a:hover
+{
+    color: #333;
+    text-decoration: underline;
+}
+
+.note a:visited, a:active, a:link
+{
+    color: royalblue;
+}
+.note a:hover
+{
+    color: #333;
+    text-decoration: underline;
+}
+
+.note{
+    font-family: 'Handlee', cursive;
+    color:#222;
+    background:#ffc;
+    width: 220px;
+    padding: 20px 20px 10px 20px;
+    margin: 30px 25px 20px 25px;
+    float: left;
+
+    /* Firefox */
+    -moz-box-shadow:5px 5px 7px rgba(33,33,33,1);
+    /* Safari + Chrome */
+    -webkit-box-shadow: 5px 5px 7px rgba(33,33,33,.3);
+    /* CSS3 - Latest browsers use this */
+    box-shadow: 5px 5px 7px rgba(33,33,33,.3);
+}
+
+.noteText
+{
+    padding-top: 1.5em;
+    padding-bottom: 0.8em;
+    text-wrap: normal;
+    overflow: hidden;
+    word-wrap:break-word;
+}
+
+.add-note-button
+{
+    cursor: pointer;
+    font-family: calibri;
+    font-size: 100%;
+}
+
+#add-note-text
+{
+    font-family: Handlee, cursive;
+    font-size: 120%;
+    width: 40%;
+}
+
+#by-text
+{
+    font-family: Handlee, cursive;
+    font-size: 120%;
+    width: 15%;
+}
+
+.pin {
+    background-color: #aaa;
+    background-image: linear-gradient(left, hsla(0,0%,100%,.2), hsla(0,0%,0%,.2));
+    display: block;
+    height: 0.5em;
+    margin: -1em -.05em;
+    position: relative;
+    left: 50%;
+    top: 2%;
+    width: .1em;
+}
+.pin:after {
+    background-color: skyBlue;
+    background-image: radial-gradient(25% 25%, circle, hsla(0,0%,100%,.2), hsla(0,0%,0%,.2));
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 1px hsla(0,0%,0%,.1),
+    inset .2em .2em .2em hsla(0,0%,100%,.2),
+    inset -.2em -.2em .2em hsla(0,0%,0%,.2);
+    content: '';
+    height: .8em;
+    left: -.35em;
+    position: absolute;
+    top: -0.8em;
+    width: .8em;
+}
+
+.add-note-container
+{
+    height: 63px;
+    padding-top: 27px;
+    text-align: center;
+    color: #333;
+    font-size: 15px;
+    background-image: url('../assets/wall.png');
+}
+
+.frame
+{
+    height: 25px;
+    border-bottom: 3px solid rgba(255,255,255,0.1);
+    border-top: 3px solid rgba(255,255,255,0.1);
+    background-image: url('../assets/Melamine-wood-005.jpg');
+
+}
+
+.by {
+    font-family: calibri;
+    font-size: 60%;
+    color: #888;
+    display: block;
+    float: left;
+}
+
+.note-delete-button
+{
+    font-family: Handlee,cursive;
+    float:right;
+    font-size: 80%;
+    margin-right: -5px;
+    margin-bottom: -8px;
+}
+
+button.minimal {
+    background: transparent;
+    color: #888;
+    border: 0;
+}
+button.minimal:hover
+{
+    color: #222;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.mac {
+    display: inline;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 8px;
+    color: #333;
+    box-shadow:
+        inset 0 2px 0 rgba(0,0,0,.2),
+        0 0 4px rgba(0,0,0,0.1);
+}
+
+.mac:focus {
+    outline: none;
+    box-shadow:
+        inset 0 2px 0 rgba(0,0,0,.2),
+        0 0 4px rgba(0,0,0,0.1),
+        0 0 5px 1px #EBD292;
+}
+
+.modern {
+
+    padding: 7px 11px 8px 11px;
+    background: rgba(0,0,0,0);
+    border: 1px solid rgba(0,0,0,0.15);
+    border-radius: 20px;
+    transition: all 0.3s ease-out;
+
+    /* Font styles */
+    text-decoration: none;
+    text-shadow: 0 1px rgba(255,255,255,0.7);
+}
+
+.modern:hover  {
+    box-shadow:
+        inset 0 2px 0 rgba(0,0,0,.2),
+        0 0 4px rgba(0,0,0,0.1),
+        0 0 5px 1px #EBD292;
+}
