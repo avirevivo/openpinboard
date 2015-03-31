@@ -32,8 +32,12 @@ app.delete('/notes/:id', function(req,res)
 });
 
 // start serving static content and start socket.io
-var server = app.listen(port, ip_addr);
-var io = require('socket.io').listen(server);
+var server = app.listen(port, ip_addr, function() {
+            console.log('%s: Node server started on %s:%d ...',
+                        Date(Date.now() ), ip_addr, port);
+        });
+
+//var io = require('socket.io').listen(server);
 
 console.log('serving on port: ' + port);
 
