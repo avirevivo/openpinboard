@@ -12,7 +12,7 @@ var oneDay = 86400000;
 
 //app.use(express.compress());
 
-var directory = __dirname + '\\OpenNoteboard';
+var directory = __dirname + '/OpenNoteboard';
 console.log('serving static content from:' + directory);
 app.use(express.static(directory,{ maxAge: oneDay }));
 app.use( bodyParser.json() );       // to support JSON-encoded bodies
