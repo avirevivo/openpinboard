@@ -6,8 +6,10 @@
     "start": "node app.js"
   },
   "dependencies": {
-    "express": "3.2.4",
-    "mongodb": "~2.0",
+    "express": "*",
+    "mongojs": "*",
+    "morgan": "*",
+    "bson" : "*",
     "socket.io": "0.9.14"
   }
 }
