@@ -37,7 +37,7 @@ var server = app.listen(port, ip_addr, function() {
                         Date(Date.now() ), ip_addr, port);
         });
 
-//var io = require('socket.io').listen(server);
+var io = require('socket.io').listen(server);
 
 console.log('serving on port: ' + port);
 
