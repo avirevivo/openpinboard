@@ -1,45 +1,182 @@
-// loading all relevant component
+#!/bin/env node
+//  OpenShift sample Node application
 var express = require('express');
+var io = require('socket.io');
 var notes = require('./notes');
 var bodyParser = require('body-parser');
 
-var ip_addr = process.env.OPENSHIFT_NODEJS_IP   || '127.0.0.1';
-var port    = process.env.OPENSHIFT_NODEJS_PORT || '8080';
+/**
+ *  Open pinboard
+ */
+var OpenPinboardApp = function() {
 
-// setting up express and its middle-ware
-var app = express();
-var oneDay = 86400000;
+    //  Scope.
+    var self = this;
 
-//app.use(express.compress());
+    /*  ================================================================  */
+    /*  Helper functions.                                                 */
+    /*  ================================================================  */
 
-var directory = __dirname + '/OpenNoteboard';
-console.log('serving static content from:' + directory);
-app.use(express.static(directory,{ maxAge: oneDay }));
-app.use( bodyParser.json() );       // to support JSON-encoded bodies
-app.use(bodyParser.urlencoded({     // to support URL-encoded bodies
-    extended: true
-}));
+    /**
+     *  Set up server IP address and port # using env variables/defaults.
+     */
+    self.setupVariables = function() {
+        //  Set the environment variables we need.
+        self.ipaddress = process.env.OPENSHIFT_NODEJS_IP;
+        self.port      = process.env.OPENSHIFT_NODEJS_PORT || 8080;
 
-// initializing the notes rest api requests
-//app.all('/notes', notes.options);
-app.post('/notes', function(req,res){
-    notes.addNewNote(req,res,io);
-});
-app.get('/notes', notes.findAllInBoard);
-app.delete('/notes/:id', function(req,res)
-{
-    notes.deleteNote(req,res,io);
-});
+        if (typeof self.ipaddress === "undefined") {
+            //  Log errors on OpenShift but continue w/ 127.0.0.1 - this
+            //  allows us to run/test the app locally.
+            console.warn('No OPENSHIFT_NODEJS_IP var, using 127.0.0.1');
+            self.ipaddress = "127.0.0.1";
+        };
+    };
 
-// start serving static content and start socket.io
-var server = app.listen(port, ip_addr, function() {
+
+    /**
+     *  Populate the cache.
+     */
+    self.populateCache = function() {
+        if (typeof self.zcache === "undefined") {
+            // self.zcache = { 'index.html': '' };
+        }
+
+        //  Local cache for static content.
+        //self.zcache['index.html'] = fs.readFileSync('./index.html');
+    };
+
+
+    /**
+     *  Retrieve entry (content) from cache.
+     *  @param {string} key  Key identifying content to retrieve from cache.
+     */
+    self.cache_get = function(key) { return self.zcache[key]; };
+
+
+    /**
+     *  terminator === the termination handler
+     *  Terminate server on receipt of the specified signal.
+     *  @param {string} sig  Signal to terminate on.
+     */
+    self.terminator = function(sig){
+        if (typeof sig === "string") {
+           console.log('%s: Received %s - terminating sample app ...',
+                       Date(Date.now()), sig);
+           process.exit(1);
+        }
+        console.log('%s: Node server stopped.', Date(Date.now()) );
+    };
+
+
+    /**
+     *  Setup termination handlers (for exit and a list of signals).
+     */
+    self.setupTerminationHandlers = function(){
+        //  Process on exit and signals.
+        process.on('exit', function() { self.terminator(); });
+
+        // Removed 'SIGPIPE' from the list - bugz 852598.
+        ['SIGHUP', 'SIGINT', 'SIGQUIT', 'SIGILL', 'SIGTRAP', 'SIGABRT',
+         'SIGBUS', 'SIGFPE', 'SIGUSR1', 'SIGSEGV', 'SIGUSR2', 'SIGTERM'
+        ].forEach(function(element, index, array) {
+            process.on(element, function() { self.terminator(element); });
+        });
+    };
+
+
+    /*  ================================================================  */
+    /*  App server functions (main app logic here).                       */
+    /*  ================================================================  */
+
+    /**
+     *  Create the routing table entries + handlers for the application.
+     */
+    self.createRoutes = function() {
+        self.routes = { };
+        self.routes.get = { };
+        self.routes.post = { };
+        self.routes.delete = { };
+
+        // init post requests
+        self.routes.post['/notes'] = function(req, res) {
+            notes.addNewNote(req,res,io);
+        };
+
+        // init get handlers
+        self.routes.get['/notes'] = notes.findAllInBoard;
+
+        // init delete handlers
+        self.routes.delete['/notes/:id'] = function(req,res)
+        {
+            notes.deleteNote(req,res,io);
+        };
+    };
+
+
+    /**
+     *  Initialize the server (express) and create the routes and register
+     *  the handlers.
+     */
+    self.initializeServer = function() {
+        self.createRoutes();
+        self.app = express();
+
+        //  Add handlers for the app (from the routes).
+        for (var r in self.routes.get) {
+            self.app.get(r, self.routes.get[r]);
+        }
+        for (var r in self.routes.post) {
+            self.app.post(r, self.routes.post[r]);
+        }
+        for (var r in self.routes.delete) {
+            self.app.delete(r, self.routes.delete[r]);
+        }
+
+        // init static server
+        var directory = __dirname + '/public';
+        console.log('serving static content from:' + directory);
+        self.app.use(express.static(directory,{ maxAge: 86400000 }));
+        self.app.use(bodyParser.json());       // to support JSON-encoded bodies
+        self.app.use(bodyParser.urlencoded({     // to support URL-encoded bodies
+            extended: true
+        }));
+    };
+
+
+    /**
+     *  Initializes the sample application.
+     */
+    self.initialize = function() {
+        self.setupVariables();
+        // self.populateCache();
+        self.setupTerminationHandlers();
+
+        // Create the express server and routes.
+        self.initializeServer();
+    };
+
+
+    /**
+     *  Start the server (starts up the sample application).
+     */
+    self.start = function() {
+        //  Start the app on the specific interface (and port).
+        var server = self.app.listen(self.port, self.ipaddress, function() {
             console.log('%s: Node server started on %s:%d ...',
-                        Date(Date.now() ), ip_addr, port);
+                        Date(Date.now() ), self.ipaddress, self.port);
         });
 
-var io = require('socket.io').listen(server);
+        // init socket.io
+        io.listen(server);
+    };
 
-console.log('serving on port: ' + port);
+};
 
-
+/**
+ *  main():  Main code.
+ */
+var opApp = new OpenPinboardApp();
+opApp.initialize();
+opApp.start();
 

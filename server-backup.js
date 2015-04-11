@@ -12,7 +12,7 @@ var oneDay = 86400000;
 
 //app.use(express.compress());
 
-var directory = __dirname + '\\OpenNoteboard';
+var directory = __dirname + '/public';
 console.log('serving static content from:' + directory);
 app.use(express.static(directory,{ maxAge: oneDay }));
 app.use( bodyParser.json() );       // to support JSON-encoded bodies
@@ -37,7 +37,7 @@ var server = app.listen(port, ip_addr, function() {
                         Date(Date.now() ), ip_addr, port);
         });
 
-//var io = require('socket.io').listen(server);
+var io = require('socket.io').listen(server);
 
 console.log('serving on port: ' + port);
 

@@ -1,7 +1,5 @@
 var mongojs = require('mongojs');
 var url = require('url');
-var bson = require("bson");
-var BSON = bson.BSONPure.BSON;
 
 // default to a 'localhost' configuration:
 var connection_string = '127.0.0.1:27017/open';
