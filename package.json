@@ -10,6 +10,7 @@
     "mongojs": "*",
     "morgan": "*",
     "bson" : "*",
+    "newrelic" : "1.18.2",
     "socket.io": "0.9.14"
   }
 }

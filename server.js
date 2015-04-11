@@ -1,5 +1,5 @@
 #!/bin/env node
-//  OpenShift sample Node application
+require('newrelic');
 var express = require('express');
 var path = require("path");
 var notes = require('./notes');
