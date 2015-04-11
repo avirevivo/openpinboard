@@ -1,7 +1,7 @@
 #!/bin/env node
 //  OpenShift sample Node application
 var express = require('express');
-var io = require('socket.io');
+var path = require("path");
 var notes = require('./notes');
 var bodyParser = require('body-parser');
 
@@ -100,7 +100,7 @@ var OpenPinboardApp = function() {
 
         // init post requests
         self.routes.post['/notes'] = function(req, res) {
-            notes.addNewNote(req,res,io);
+            notes.addNewNote(req,res,self.io);
         };
 
         // init get handlers
@@ -109,10 +109,9 @@ var OpenPinboardApp = function() {
         // init delete handlers
         self.routes.delete['/notes/:id'] = function(req,res)
         {
-            notes.deleteNote(req,res,io);
+            notes.deleteNote(req,res,self.io);
         };
     };
-
 
     /**
      *  Initialize the server (express) and create the routes and register
@@ -123,8 +122,8 @@ var OpenPinboardApp = function() {
         self.app = express();
 
         // init static server
-        var directory = __dirname + '/public';
-        console.log('serving static content from:' + directory);
+        var directory = __dirname + path.sep + 'public';
+        console.log('Serving static content from:' + directory);
         self.app.use(express.static(directory,{ maxAge: 86400000 }));
         self.app.use(bodyParser.json());       // to support JSON-encoded bodies
         self.app.use(bodyParser.urlencoded({     // to support URL-encoded bodies
@@ -168,7 +167,7 @@ var OpenPinboardApp = function() {
         });
 
         // init socket.io
-        io.listen(server);
+        self.io = require('socket.io').listen(server);
     };
 
 };
