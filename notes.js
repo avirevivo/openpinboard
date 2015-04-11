@@ -1,5 +1,6 @@
 var mongojs = require('mongojs');
 var url = require('url');
+var logger = require('winston');
 
 // default to a 'localhost' configuration:
 var connection_string = '127.0.0.1:27017/open';
@@ -40,13 +41,13 @@ exports.addNewNote = function(req, res, io)
 {
     var note = req.body;
 
-    console.log('Adding note: ' + JSON.stringify(note));
+    logger.info('Creating a new note. ', JSON.stringify(note));
 
     db.notes.save(note);
 
     // sending an event that the board was updated to all registered clients
-    var eventName = 'board_'+note['board']; // todo: make prefix constant
-    console.log('emiting event: ' + eventName);
+    var eventName = 'board_'+ note['board']; // todo: make prefix constant
+    logger.info('emitting socket.io event.', { eventName: eventName });
     io.sockets.emit(eventName, {});
 
     res.end();
@@ -62,6 +63,7 @@ exports.findAllInBoard = function(req, res)
         db.notes.find({
             board: query['board']
         }).toArray(function(err, docs) {
+                logger.info('retrieving all notes for board.', { board: query['board'] });
                 res.send(docs);
             });
     }
@@ -77,21 +79,22 @@ exports.deleteNote = function(req, res, io) {
 
     var o_id = db.ObjectId(req.params.id);
 
-    console.log('Attempting to delete note: ' + o_id);
+    logger.info('Attempting to delete note. ', { Id: o_id });
 
     // delete a specific thing.
     db.notes.findAndModify({query: {_id: o_id}, remove:true}, function(err, object, lastErrorObject)
         {
             if (err)
             {
-                console.log('An error has occurred - err=' + err + ', lastErrorObject=' + lastErrorObject);
+                logger.error('An error has occurred.', { error: err,  lastErrorObject : lastErrorObject });
             }
             else if(object)
             {
-                console.log('' + object['_id'] + ' document deleted');
+                logger.info('deleted note.', { id: object['_id'] });
 
                 // sending an event that the board was updated to all registered clients
                 var eventName = 'board_' + object['board']; // todo: make prefix constant
+                logger.info('emitting socket.io event.', { eventName: eventName });
                 io.sockets.emit(eventName, {});
             }
 

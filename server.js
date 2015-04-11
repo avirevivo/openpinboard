@@ -1,6 +1,7 @@
 #!/bin/env node
 require('newrelic');
 var express = require('express');
+var logger = require('./log.js');
 var path = require("path");
 var notes = require('./notes');
 var bodyParser = require('body-parser');
@@ -28,7 +29,7 @@ var OpenPinboardApp = function() {
         if (typeof self.ipaddress === "undefined") {
             //  Log errors on OpenShift but continue w/ 127.0.0.1 - this
             //  allows us to run/test the app locally.
-            console.warn('No OPENSHIFT_NODEJS_IP var, using 127.0.0.1');
+            logger.warn('No OPENSHIFT_NODEJS_IP var, using 127.0.0.1');
             self.ipaddress = "127.0.0.1";
         };
     };
@@ -61,11 +62,10 @@ var OpenPinboardApp = function() {
      */
     self.terminator = function(sig){
         if (typeof sig === "string") {
-           console.log('%s: Received %s - terminating sample app ...',
-                       Date(Date.now()), sig);
+            logger.info('Recived termination signal.', { Date : Date(Date.now()), sig : sig });
            process.exit(1);
         }
-        console.log('%s: Node server stopped.', Date(Date.now()) );
+        logger.info('%s: Node server stopped.', Date(Date.now()) );
     };
 
 
@@ -123,7 +123,7 @@ var OpenPinboardApp = function() {
 
         // init static server
         var directory = __dirname + path.sep + 'public';
-        console.log('Serving static content from:' + directory);
+        logger.info('Starting to serve static content', { Directory : directory  });
         self.app.use(express.static(directory,{ maxAge: 86400000 }));
         self.app.use(bodyParser.json());       // to support JSON-encoded bodies
         self.app.use(bodyParser.urlencoded({     // to support URL-encoded bodies
@@ -162,8 +162,7 @@ var OpenPinboardApp = function() {
     self.start = function() {
         //  Start the app on the specific interface (and port).
         var server = self.app.listen(self.port, self.ipaddress, function() {
-            console.log('%s: Node server started on %s:%d ...',
-                        Date(Date.now() ), self.ipaddress, self.port);
+            logger.info('Node server started', { Date: Date(Date.now()), IpAddress: self.ipaddress, Port : self.port});
         });
 
         // init socket.io

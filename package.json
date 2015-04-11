@@ -1,16 +1,15 @@
 {
-  "name": "Open-NoteBoard-Server",
-  "version": "0.0.2",
+  "name": "Open-Pinboard",
+  "version": "0.0.3",
   "private": true,
   "scripts": {
-    "start": "node app.js"
+    "start": "node server.js"
   },
   "dependencies": {
-    "express": "*",
-    "mongojs": "*",
-    "morgan": "*",
-    "bson" : "*",
-    "newrelic" : "1.18.2",
-    "socket.io": "0.9.14"
+    "express": "^5.0.0-alpha.1",
+    "mongojs": "^1.0.0-beta3",
+    "newrelic": "1.18.2",
+    "socket.io": "^0.9.14",
+    "winston": "^1.0.0"
   }
 }

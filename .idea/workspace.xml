@@ -1,778 +1,182 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8f8632a6-0331-4153-b31b-c0a45695334f" name="Default" comment="add another / to sepereate between versions&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/semver/semver.browser.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/semver/semver.min.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/.coverignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/.drone.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/.eslintrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/.jshintrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/https-proxy-agent/node_modules/debug/.jshintrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/examples/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/examples/express/sequelize/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/examples/restify/mongoose/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/https-proxy-agent/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/https-proxy-agent/node_modules/agent-base/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/https-proxy-agent/node_modules/debug/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/https-proxy-agent/node_modules/debug/node_modules/ms/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/https-proxy-agent/node_modules/extend/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/readable-stream/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/readable-stream/node_modules/string_decoder/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/semver/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/yakaa/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/integration/benchmarkr/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/https-proxy-agent/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/https-proxy-agent/node_modules/agent-base/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/https-proxy-agent/node_modules/extend/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/yakaa/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/proc_cpuinfo/1pack_1core_1logical.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/proc_cpuinfo/1pack_1core_2logical.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/proc_cpuinfo/1pack_2core_2logical.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/proc_cpuinfo/1pack_4core_4logical.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/proc_cpuinfo/2pack_12core_24logical.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/proc_cpuinfo/2pack_20core_40logical.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/proc_cpuinfo/2pack_2core_2logical.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/proc_cpuinfo/2pack_2core_4logical.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/proc_cpuinfo/2pack_4core_4logical.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/integration/connection-failure/413.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/integration/connection-failure/415.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/proc_cpuinfo/4pack_4core_4logical.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/integration/connection-failure/503.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/proc_cpuinfo/8pack_8core_8logical.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/CONTRIBUTING.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/yakaa/CONTRIBUTING.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/https-proxy-agent/History.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/https-proxy-agent/node_modules/agent-base/History.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/https-proxy-agent/node_modules/debug/History.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/json-stringify-safe/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/readable-stream/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/readable-stream/node_modules/inherits/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/readable-stream/node_modules/string_decoder/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/semver/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/yakaa/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/Makefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/https-proxy-agent/node_modules/debug/Makefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/semver/Makefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/NEWS.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/https-proxy-agent/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/https-proxy-agent/node_modules/agent-base/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/https-proxy-agent/node_modules/debug/node_modules/ms/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/https-proxy-agent/node_modules/extend/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/json-stringify-safe/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/readable-stream/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/readable-stream/node_modules/core-util-is/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/readable-stream/node_modules/inherits/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/readable-stream/node_modules/isarray/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/readable-stream/node_modules/string_decoder/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/semver/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/yakaa/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/integration/benchmarkr/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/postgres_explain_obfuscation/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/proc_cpuinfo/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/proc_meminfo/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/sql_obfuscation/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/sql_obfuscation/pathological/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/synthetics/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/https-proxy-agent/node_modules/debug/Readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/SECURITY.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/yakaa/SECURITY.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/proc_cpuinfo/Xpack_Xcore_2logical.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/readable-stream/lib/_stream_duplex.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/readable-stream/lib/_stream_passthrough.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/readable-stream/lib/_stream_readable.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/readable-stream/lib/_stream_transform.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/readable-stream/lib/_stream_writable.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/lib/agent.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/https-proxy-agent/node_modules/agent-base/agent.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/unit/agent/agent.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/agent_helper.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/lib/transaction/trace/aggregator.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/semver/test/amd.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/unit/analytics_events.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/lib/stats/apdex.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/unit/apdex.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/api.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/lib/collector/api.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/unit/api/api.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/unit/collector/api.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/express4-ejs/app-use.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/express5-ejs/app-use.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/attribute_configuration.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/sql_obfuscation/back_quoted_identifiers.mysql.obfuscated" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/sql_obfuscation/back_quoted_identifiers.mysql.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/integration/cat/background.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/rum_loader_insertion_location/basic.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/postgres_explain_obfuscation/basic_where.colon_obfuscated.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/postgres_explain_obfuscation/basic_where.explain.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/postgres_explain_obfuscation/basic_where.obfuscated.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/postgres_explain_obfuscation/basic_where.query.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/semver/test/big-numbers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/rum_loader_insertion_location/body_with_attributes.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/integration/benchmarkr/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/https-proxy-agent/node_modules/debug/browser.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/readable-stream/node_modules/isarray/build/build.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/unit/bundles.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/bin/ca-gen.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/lib/instrumentation/cassandra-driver.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/lib/metrics/recorders/cassandra.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/integration/instrumentation/cassandra.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/integration/cat/cat.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/cat_map.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/lib/collector/ssl/certificates.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/rum_loader_insertion_location/charset_tag.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/rum_loader_insertion_location/charset_tag_after_x_ua_tag.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/rum_loader_insertion_location/charset_tag_before_x_ua_tag.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/rum_loader_insertion_location/charset_tag_with_spaces.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/express3-redis/views/chat_list.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/express3-redis/views/templates/chat_tmpl.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/lib/instrumentation/core/child_process.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/integration/core/child_process.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/semver/test/clean.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/rum_footer_insertion_location/close-body-in-comment.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/lib/util/codec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/node-mongodb-native-2-0-1/collection-ops.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/integration/collector-remote-method.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/sql_obfuscation/comment_delimiters_in_strings.obfuscated" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/sql_obfuscation/comment_delimiters_in_strings.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/rum_loader_insertion_location/comments1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/rum_loader_insertion_location/comments2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/https-proxy-agent/node_modules/debug/component.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/readable-stream/node_modules/isarray/component.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/unit/instrumentation/conect.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/lib/config.default.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/lib/config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/unit/config.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/connect-1/connect-error-intercept.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/connect-2/connect-error-intercept.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/lib/instrumentation/connect.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/schemas/connect.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/integration/api/connection.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/rum_loader_insertion_location/content_type_charset_tag.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/rum_loader_insertion_location/content_type_charset_tag_after_x_ua_tag.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/rum_loader_insertion_location/content_type_charset_tag_before_x_ua_tag.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/unit/instrumentation/couchdb.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/lib/instrumentation/core/crypto.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/integration/core/crypto.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/postgres_explain_obfuscation/current_date.colon_obfuscated.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/postgres_explain_obfuscation/current_date.explain.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/postgres_explain_obfuscation/current_date.obfuscated.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/postgres_explain_obfuscation/current_date.query.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/unit/api/custom-events.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/unit/api/custom-instrumentation.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/lib/metrics/recorders/custom.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/postgres_explain_obfuscation/date.colon_obfuscated.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/postgres_explain_obfuscation/date.explain.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/postgres_explain_obfuscation/date.obfuscated.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/postgres_explain_obfuscation/date.query.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/node-mongodb-native-2-0-1/db-ops.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/https-proxy-agent/node_modules/debug/debug.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/yakaa/lib/debuglog.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/lib/util/deep-equal.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/integration/deep-equal.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/lib/instrumentation/core/dns.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/integration/core/dns.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/docker_env_vars.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/sql_obfuscation/double_quoted_identifiers.postgres.obfuscated" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/sql_obfuscation/double_quoted_identifiers.postgres.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/readable-stream/duplex.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/rum_footer_insertion_location/dynamic-iframe.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/postgres_explain_obfuscation/embedded_newline.colon_obfuscated.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/postgres_explain_obfuscation/embedded_newline.explain.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/postgres_explain_obfuscation/embedded_newline.obfuscated.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/postgres_explain_obfuscation/embedded_newline.query.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/postgres_explain_obfuscation/embedded_quote.colon_obfuscated.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/postgres_explain_obfuscation/embedded_quote.explain.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/postgres_explain_obfuscation/embedded_quote.obfuscated.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/postgres_explain_obfuscation/embedded_quote.query.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/rum_loader_insertion_location/empty_head" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/sql_obfuscation/end_of_line_comment_in_string.obfuscated" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/sql_obfuscation/end_of_line_comment_in_string.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/sql_obfuscation/pathological/end_of_line_comments_with_quotes.obfuscated" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/sql_obfuscation/pathological/end_of_line_comments_with_quotes.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/sql_obfuscation/end_of_query_comment_cstyle.obfuscated" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/sql_obfuscation/end_of_query_comment_cstyle.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/sql_obfuscation/end_of_query_comment_doubledash.obfuscated" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/sql_obfuscation/end_of_query_comment_doubledash.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/sql_obfuscation/end_of_query_comment_hash.obfuscated" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/sql_obfuscation/end_of_query_comment_hash.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/helpers/environment.child.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/lib/environment.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/integration/environment.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/unit/environment.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/express3-ejs/erk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/express4-ejs/erk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/express5-ejs/erk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/integration/api/error-data.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/lib/error.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/yakaa/test/error.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/unit/error.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/schemas/error_data.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/sql_obfuscation/escape_string_constants.postgres.obfuscated" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/sql_obfuscation/escape_string_constants.postgres.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/integration/core/exec-me.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/lib/instrumentation/express.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/unit/instrumentation/express.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/express2-ejs/express2-ignoring.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/express2-ejs/express2-render-ejs.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/express2-ejs/express2-router.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/express3-ejs/express3-async-error.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/express3-ejs/express3-capture-params-ejs.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/express3-ejs/express3-ignoring.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/express3-mongodb-async/express3-mongodb-async.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/express3-redis/express3-redis-tt.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/express3-ejs/express3-render-ejs.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/express3-ejs/express3-router.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/express4-ejs/express4-async-error.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/express4-ejs/express4-capture-params-ejs.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/express4-ejs/express4-detection.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/express4-ejs/express4-express-enrouten.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/express4-ejs/express4-ignoring.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/express4-ejs/express4-render-ejs.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/express4-ejs/express4-route-iteration.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/express4-ejs/express4-router-bare.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/express4-ejs/express4-router-params.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/express5-ejs/express5-async-error.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/express5-ejs/express5-capture-params-ejs.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/express5-ejs/express5-detection.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/express5-ejs/express5-ignoring.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/express5-ejs/express5-render-ejs.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/express5-ejs/express5-router-bare.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/express5-ejs/express5-router-params.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/examples/express/random-delays/express_random_delays.jmx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/examples/express/random-delays/express_random_delays.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/examples/express/sequelize/express_sequelize.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/lib/collector/facts.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/unit/facts.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/fake-collector.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/unit/feature_flag.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/lib/feature_flags.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/express3-redis/views/files_list.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/lib/util/flatten.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/integration/flatten.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/readable-stream/float.patch" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/readable-stream/node_modules/core-util-is/float.patch" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/postgres_explain_obfuscation/floating_point.colon_obfuscated.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/postgres_explain_obfuscation/floating_point.explain.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/postgres_explain_obfuscation/floating_point.obfuscated.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/postgres_explain_obfuscation/floating_point.query.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/semver/foot.js.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/lib/instrumentation/core/fs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/integration/core/fs.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/postgres_explain_obfuscation/function_with_strings.colon_obfuscated.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/postgres_explain_obfuscation/function_with_strings.explain.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/postgres_explain_obfuscation/function_with_strings.obfuscated.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/postgres_explain_obfuscation/function_with_strings.query.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/lib/instrumentation/generic-pool.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/unit/instrumentation/generic-pool.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/lib/metrics/recorders/generic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/unit/metrics-recorder/generic.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/lib/instrumentation/core/globals.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/node-mongodb-native-1-4-0/gridfs-no-explode.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/rum_loader_insertion_location/gt_in_quotes1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/rum_loader_insertion_location/gt_in_quotes2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/rum_loader_insertion_location/gt_in_quotes_mismatch.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/rum_loader_insertion_location/gt_in_single_quotes1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/rum_loader_insertion_location/gt_in_single_quotes_mismatch.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/semver/test/gtr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/unit/instrumentation/hape.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/hapi-4/hapi-capture-params.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/hapi-6.9/hapi-capture-params.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/hapi-7.1/hapi-capture-params.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/hapi-7.x/hapi-capture-params.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/hapi-8.x/hapi-capture-params.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/hapi-2-0-0/hapi-ignoring.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/hapi-4/hapi-ignoring.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/hapi-6.9/hapi-ignoring.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/hapi-7.1/hapi-ignoring.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/hapi-7.x/hapi-ignoring.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/hapi-8.x/hapi-ignoring.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/hapi-2-0-0/hapi-render.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/hapi-4/hapi-render.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/hapi-6.9/hapi-render.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/hapi-7.1/hapi-render.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/hapi-7.x/hapi-render.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/hapi-8.x/hapi-render.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/hapi-2-0-0/hapi-router.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/hapi-4/hapi-router.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/hapi-6.9/hapi-router.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/hapi-7.1/hapi-router.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/hapi-7.x/hapi-router.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/hapi-8.x/hapi-router.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/hapi-7.x/hapi-vhost.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/hapi-8.x/hapi-vhost.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/lib/instrumentation/hapi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/integration/agent/harvest.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/lib/util/hashes.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/unit/hashes.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/semver/head.js.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/rum_loader_insertion_location/head_with_attributes.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/unit/high-security.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/lib/collector/http-agents.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/unit/metrics-recorder/http-external.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/integration/instrumentation/http-outbound.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/integration/instrumentation/http-rum.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/lib/instrumentation/core/http.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/lib/metrics/recorders/http.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/yakaa/http.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/integration/instrumentation/http.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/unit/instrumentation/http/http.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/unit/metrics-recorder/http.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/lib/metrics/recorders/http_external.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/examples/http/minimal/http_minimal.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/examples/http/random-delays/http_random_delays.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/examples/http/simple/http_simple.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/examples/http/cluster/http_with_cluster.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/https-proxy-agent/https-proxy-agent.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/yakaa/https.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/rum_loader_insertion_location/incomplete_non_meta_tags.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/integration/index-disabled.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/express2-ejs/views/index.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/express3-ejs/views/index.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/express4-ejs/views/index.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/express5-ejs/views/index.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/hapi-2-0-0/views/index.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/hapi-4/views/index.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/hapi-6.9/views/index.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/hapi-7.1/views/index.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/hapi-7.x/views/index.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/hapi-8.x/views/index.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/examples/express/sequelize/architecture/sequelize-dal/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/examples/restify/mongoose/architecture/mongoose-dal/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/lib/metrics/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/lib/stats/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/lib/transaction/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/lib/transaction/trace/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/lib/transaction/tracer/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/https-proxy-agent/node_modules/debug/node_modules/ms/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/https-proxy-agent/node_modules/extend/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/readable-stream/node_modules/isarray/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/readable-stream/node_modules/string_decoder/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/semver/test/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/yakaa/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/integration/benchmarkr/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/integration/benchmarkr/commands/shutdown/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/integration/benchmarkr/services/memcached/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/integration/benchmarkr/services/mongodb/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/integration/benchmarkr/services/mysqld/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/integration/benchmarkr/services/redis/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/bootstrap/mysql/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/express4-ejs/fixtures/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/express5-ejs/fixtures/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/integration/index.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/readable-stream/node_modules/inherits/inherits.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/readable-stream/node_modules/inherits/inherits_browser.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/node-mongodb-native-1-4-0/instrumentation-mongodb.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/lib/instrumentations.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/unit/agent/intrinsics.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/express3-ejs/issue171.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/express4-ejs/issue171.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/express5-ejs/issue171.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/lib/util/json-stringify-safer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/unit/util/json-stringify-safer.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/yakaa/test/keepalive.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/lib/util/label-parser.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/unit/util/label-parser.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/labels.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/express3-redis/views/layout.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/unit/licenses.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/unit/licenses.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/lib/logger.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/lib/util/logger.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/integration/benchmarkr/logger.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/integration/logger.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/unit/logger.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/unit/util/logger.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/semver/test/ltr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/semver/test/major-minor-patch.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/proc_cpuinfo/malformed_file.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/lib/metrics/mapper.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/lib/instrumentation/memcached.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/lib/metrics/recorders/memcached.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/integration/instrumentation/memcached.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/unit/instrumentation/memcached.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/unit/metrics-recorder/memcached.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/proc_meminfo/meminfo_4096MB.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/integration/api/metric-data.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/schemas/metric_data.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/unit/metrics-mapper.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/unit/metric/metrics.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/sql_obfuscation/pathological/mixed_comments_and_quotes.obfuscated" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/sql_obfuscation/pathological/mixed_comments_and_quotes.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/sql_obfuscation/pathological/mixed_quotes_comments_and_newlines.obfuscated" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/sql_obfuscation/pathological/mixed_quotes_comments_and_newlines.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/sql_obfuscation/pathological/mixed_quotes_end_of_line_comments.obfuscated" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/sql_obfuscation/pathological/mixed_quotes_end_of_line_comments.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/mocha.opts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/unit/instrumentation/mongo.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/node-mongodb-native-1-1-7/mongodb-lifecycle.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/lib/instrumentation/mongodb.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/unit/metrics-recorder/mongodb.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/examples/restify/mongoose/architecture/mongoose-bootstrapped.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/sql_obfuscation/multiple_literal_types.mysql.obfuscated" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/sql_obfuscation/multiple_literal_types.mysql.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/node-mysql-2/mysql-basic-pool.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/node-mysql-2/mysql-basic.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/architecture/mysql-bootstrapped.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/node-mysql-0-9/mysql-lifecycle.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/node-mysql-2/mysql-pooling.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/node-mysql-2/mysql-transaction.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/lib/instrumentation/mysql.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/unit/instrumentation/mysql.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/unit/metrics-recorder/mysql.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/lib/metrics/names.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/bin/navel" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/lib/instrumentation/core/net.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/integration/core/net.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/newrelic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/newrelic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/helpers/newrelic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/integration/newrelic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/integration/agent/newrelic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/integration/api/newrelic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/integration/cat/newrelic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/integration/connection-failure/newrelic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/integration/core/newrelic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/integration/instrumentation/newrelic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/integration/transaction/newrelic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/cassandra-driver-1.x/newrelic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/connect-1/newrelic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/connect-2/newrelic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/connect-3/newrelic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/express2-ejs/newrelic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/express3-ejs/newrelic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/express3-mongodb-async/newrelic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/express3-redis/newrelic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/express4-ejs/newrelic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/express5-ejs/newrelic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/hapi-2-0-0/newrelic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/hapi-4/newrelic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/hapi-6.9/newrelic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/hapi-7.1/newrelic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/hapi-7.x/newrelic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/hapi-8.x/newrelic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/node-mongodb-native-1-1-7/newrelic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/node-mongodb-native-1-3-19/newrelic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/node-mongodb-native-1-4-0/newrelic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/node-mongodb-native-2-0-1/newrelic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/node-mysql-0-9/newrelic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/node-mysql-2/newrelic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/pg-1/newrelic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/pg-2/newrelic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/pg-3/newrelic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/pg-4/newrelic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/restify-2-6-0/newrelic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/semver/test/no-module.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/rum_loader_insertion_location/no_end_header.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/rum_loader_insertion_location/no_header.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/rum_loader_insertion_location/no_html_and_no_header.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/rum_loader_insertion_location/no_start_header.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/lib/instrumentation/node-cassandra-cql.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/https-proxy-agent/node_modules/debug/node.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/unit/metric/normalizer-rule.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/unit/metric/normalizer-tx-segment.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/lib/metrics/normalizer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/unit/metric/normalizer.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/integration/api/notice-error.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/sql_obfuscation/numbers_in_identifiers.obfuscated" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/sql_obfuscation/numbers_in_identifiers.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/sql_obfuscation/numeric_literals.obfuscated" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/sql_obfuscation/numeric_literals.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/obfuscation-data.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/lib/instrumentation/oracle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/integration/instrumentation/oracle.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/lib/metrics/recorders/other.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/lib/transaction/tracer/instrumentation/outbound.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/unit/instrumentation/http/outbound.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/examples/express/sequelize/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/examples/express/sequelize/architecture/sequelize-dal/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/examples/restify/elasticsearch/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/examples/restify/mongoose/architecture/mongoose-dal/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/https-proxy-agent/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/https-proxy-agent/node_modules/agent-base/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/https-proxy-agent/node_modules/debug/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/https-proxy-agent/node_modules/debug/node_modules/ms/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/https-proxy-agent/node_modules/extend/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/json-stringify-safe/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/readable-stream/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/readable-stream/node_modules/core-util-is/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/readable-stream/node_modules/inherits/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/readable-stream/node_modules/isarray/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/readable-stream/node_modules/string_decoder/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/semver/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/yakaa/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/helpers/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/integration/benchmarkr/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/integration/benchmarkr/commands/shutdown/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/integration/benchmarkr/services/memcached/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/integration/benchmarkr/services/mongodb/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/integration/benchmarkr/services/mysqld/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/integration/benchmarkr/services/redis/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/bootstrap/mysql/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/example-packages/invalid-json/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/example-packages/valid-json/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned-node/node-0-10-setImmediate/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/cassandra-driver-1.x/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/connect-1/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/connect-2/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/connect-3/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/express2-ejs/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/express3-ejs/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/express3-mongodb-async/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/express3-redis/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/express4-ejs/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/express5-ejs/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/hapi-2-0-0/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/hapi-4/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/hapi-6.9/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/hapi-7.1/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/hapi-7.x/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/hapi-8.x/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/node-mongodb-native-1-1-7/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/node-mongodb-native-1-3-19/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/node-mongodb-native-1-4-0/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/node-mongodb-native-2-0-1/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/node-mysql-0-9/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/node-mysql-2/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/pg-1/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/pg-2/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/pg-3/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/pg-4/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/restify-2-6-0/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/params.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/lib/collector/parse-response.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/unit/collector/parse-response.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/lib/db/parse-sql.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/unit/parse-sql.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/lib/db/parsed-statement.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/unit/parsed-statement.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/readable-stream/passthrough.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/pg-1/pg-force-native.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/pg-3/pg-force-native.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/pg-1/pg-native.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/pg-3/pg-native.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/pg-1/pg.common.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/lib/instrumentation/pg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/pg-1/pg.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/unit/instrumentation/postgresql.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/integration/core/promises.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/integration/proxy-api-connection.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/cassandra-driver-1.x/query.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/unit/metrics-recorder/queue-time-http.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/unit/instrumentation/http/queue-time.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/sql_obfuscation/pathological/quote_delimiters_in_comments.obfuscated" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/sql_obfuscation/pathological/quote_delimiters_in_comments.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/postgres_explain_obfuscation/quote_in_table_name.colon_obfuscated.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/postgres_explain_obfuscation/quote_in_table_name.explain.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/postgres_explain_obfuscation/quote_in_table_name.obfuscated.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/postgres_explain_obfuscation/quote_in_table_name.query.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/readable-stream/readable.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/recreate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/lib/instrumentation/redis.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/lib/metrics/recorders/redis.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/integration/instrumentation/redis.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/unit/instrumentation/redis.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/unit/metrics-recorder/redis.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/releases.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/lib/collector/remote-method.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/unit/remote-method.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/unit/instrumentation/request.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/lib/reservoir.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/restify-2-6-0/restify-capture-params.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/restify-2-6-0/restify-ignoring.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/restify-2-6-0/restify-router.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/restify-2-6-0/restify-rum.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/integration/instrumentation/restify-with-express.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/lib/instrumentation/restify.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/integration/instrumentation/restify.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/examples/restify/mongoose/restify_mongoose.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/express3-redis/views/room.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/express3-redis/views/rooms_dropdown.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/lib/metrics/normalizer/rule.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/rules.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/unit/rum.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/rum_client_config.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/rum_cookie.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/lib/sampler.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/unit/sampler.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/rum_loader_insertion_location/script1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/rum_loader_insertion_location/script2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/lib/transaction/trace/segment.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/semver/semver.browser.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/.bin/semver.cmd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/semver/semver.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/semver/semver.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/.bin/semver" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/semver/bin/semver" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/integration/agent/send-errors.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/integration/agent/send-metrics.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/integration/agent/send-trace.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/unit/agent/sendEvents.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/examples/express/sequelize/architecture/sequelize-bootstrapped.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/https-proxy-agent/node_modules/agent-base/test/server.crt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/https-proxy-agent/test/server.crt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/examples/restify/elasticsearch/server.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/https-proxy-agent/node_modules/agent-base/test/server.key" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/https-proxy-agent/test/server.key" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/integration/benchmarkr/services.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/lib/shimmer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/unit/shimmer.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/lib/transaction/trace/sql.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/schemas/sql_params.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/sql_parsing.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/schemas/sql_trace_data.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/integration/api/ssl-connection.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/integration/api/ssl-error-data.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/integration/agent/ssl-harvest.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/integration/api/ssl-metric-data.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/integration/agent/ssl-send-errors.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/integration/agent/ssl-send-metrics.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/integration/agent/ssl-send-trace.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/integration/agent/ssl-start-stop.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/integration/api/ssl-transaction-sample-data.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/integration/agent/start-stop.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/lib/db/statement-matcher.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/unit/stats.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned/express3-redis/views/status_dropdown.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/lib/util/stream-sink.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/sql_obfuscation/string_double_quoted.mysql.obfuscated" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/sql_obfuscation/string_double_quoted.mysql.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/sql_obfuscation/string_single_quoted.obfuscated" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/sql_obfuscation/string_single_quoted.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/sql_obfuscation/string_with_backslash_and_twin_single_quotes.obfuscated" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/sql_obfuscation/string_with_backslash_and_twin_single_quotes.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/sql_obfuscation/string_with_embedded_double_quote.obfuscated" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/sql_obfuscation/string_with_embedded_double_quote.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/sql_obfuscation/string_with_embedded_newline.obfuscated" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/sql_obfuscation/string_with_embedded_newline.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/sql_obfuscation/string_with_embedded_single_quote.mysql.obfuscated" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/sql_obfuscation/string_with_embedded_single_quote.mysql.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/sql_obfuscation/string_with_escaped_quotes.mysql.obfuscated" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/sql_obfuscation/string_with_escaped_quotes.mysql.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/sql_obfuscation/string_with_trailing_backslash.obfuscated" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/sql_obfuscation/string_with_trailing_backslash.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/sql_obfuscation/string_with_trailing_escaped_backslash.mysql.obfuscated" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/sql_obfuscation/string_with_trailing_escaped_backslash.mysql.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/sql_obfuscation/string_with_trailing_escaped_backslash_single_quoted.obfuscated" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/sql_obfuscation/string_with_trailing_escaped_backslash_single_quoted.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/sql_obfuscation/string_with_trailing_escaped_quote.obfuscated" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/sql_obfuscation/string_with_trailing_escaped_quote.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/sql_obfuscation/string_with_twin_single_quotes.obfuscated" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/sql_obfuscation/string_with_twin_single_quotes.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/json-stringify-safe/stringify.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/unit/api/stub.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/stub_api.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/postgres_explain_obfuscation/subplan.colon_obfuscated.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/postgres_explain_obfuscation/subplan.explain.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/postgres_explain_obfuscation/subplan.obfuscated.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/postgres_explain_obfuscation/subplan.query.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/lib/util/sum-children.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/unit/sum-children.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/synthetics/synthetics.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/unit/agent/synthetics.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/unit/instrumentation/http/synthetics.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/tap_runner.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/test-ca.conf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/https-proxy-agent/node_modules/agent-base/test/test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/https-proxy-agent/test/test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/json-stringify-safe/test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/readable-stream/node_modules/inherits/test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/lib/timer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/unit/timer.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/lib/instrumentation/core/timers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/integration/core/timers.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/unit/trace-aggregator.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/integration/transaction/trace-async-propagation.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/unit/trace-segment.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/unit/trace-sql.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/unit/trace.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/integration/transaction/tracer.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/unit/tracer.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/bin/tracetractor" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/integration/api/transaction-sample-data.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/versioned-node/node-0-10-setImmediate/transaction-trace-async-propagation.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/unit/transaction.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/schemas/transaction_sample_data.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/transaction_segment_terms.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/schemas/transaction_trace.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/readable-stream/transform.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/lib/metrics/normalizer/tx_segment.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/lib/uninstrumented.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/integration/uninstrumented.tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/sql_obfuscation/malformed/unterminated_double_quoted_string.mysql.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/sql_obfuscation/malformed/unterminated_single_quoted_string.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/bin/update-ca-bundle.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/url_clean.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/url_domain_extraction.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/lib/util/urltils.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/unit/urltils.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/readable-stream/node_modules/core-util-is/util.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/readable-stream/node_modules/core-util-is/lib/util.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/integration/core/verify.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/postgres_explain_obfuscation/where_with_integer.colon_obfuscated.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/postgres_explain_obfuscation/where_with_integer.explain.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/postgres_explain_obfuscation/where_with_integer.obfuscated.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/postgres_explain_obfuscation/where_with_integer.query.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/postgres_explain_obfuscation/where_with_regex_chars.colon_obfuscated.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/postgres_explain_obfuscation/where_with_regex_chars.explain.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/postgres_explain_obfuscation/where_with_regex_chars.obfuscated.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/postgres_explain_obfuscation/where_with_regex_chars.query.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/postgres_explain_obfuscation/where_with_substring.colon_obfuscated.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/postgres_explain_obfuscation/where_with_substring.explain.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/postgres_explain_obfuscation/where_with_substring.obfuscated.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/postgres_explain_obfuscation/where_with_substring.query.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/postgres_explain_obfuscation/with_escape_case1.colon_obfuscated.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/postgres_explain_obfuscation/with_escape_case1.explain.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/postgres_explain_obfuscation/with_escape_case1.obfuscated.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/postgres_explain_obfuscation/with_escape_case1.query.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/postgres_explain_obfuscation/with_escape_case2.colon_obfuscated.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/postgres_explain_obfuscation/with_escape_case2.explain.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/postgres_explain_obfuscation/with_escape_case2.obfuscated.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/postgres_explain_obfuscation/with_escape_case2.query.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/postgres_explain_obfuscation/with_escape_case3.colon_obfuscated.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/postgres_explain_obfuscation/with_escape_case3.explain.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/postgres_explain_obfuscation/with_escape_case3.obfuscated.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/postgres_explain_obfuscation/with_escape_case3.query.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/postgres_explain_obfuscation/with_escape_case4.colon_obfuscated.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/postgres_explain_obfuscation/with_escape_case4.explain.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/postgres_explain_obfuscation/with_escape_case4.obfuscated.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/postgres_explain_obfuscation/with_escape_case4.query.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/postgres_explain_obfuscation/with_escape_case5.colon_obfuscated.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/postgres_explain_obfuscation/with_escape_case5.explain.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/postgres_explain_obfuscation/with_escape_case5.obfuscated.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/postgres_explain_obfuscation/with_escape_case5.query.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/postgres_explain_obfuscation/with_escape_case6.colon_obfuscated.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/postgres_explain_obfuscation/with_escape_case6.explain.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/postgres_explain_obfuscation/with_escape_case6.obfuscated.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/postgres_explain_obfuscation/with_escape_case6.query.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/postgres_explain_obfuscation/with_escape_case7.colon_obfuscated.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/postgres_explain_obfuscation/with_escape_case7.explain.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/postgres_explain_obfuscation/with_escape_case7.obfuscated.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/postgres_explain_obfuscation/with_escape_case7.query.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/postgres_explain_obfuscation/with_escape_case8.colon_obfuscated.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/postgres_explain_obfuscation/with_escape_case8.explain.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/postgres_explain_obfuscation/with_escape_case8.obfuscated.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/postgres_explain_obfuscation/with_escape_case8.query.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/postgres_explain_obfuscation/with_escape_case9.colon_obfuscated.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/postgres_explain_obfuscation/with_escape_case9.explain.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/postgres_explain_obfuscation/with_escape_case9.obfuscated.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/postgres_explain_obfuscation/with_escape_case9.query.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/readable-stream/writable.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/rum_loader_insertion_location/x_ua_meta_tag.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/rum_loader_insertion_location/x_ua_meta_tag_multiline.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/rum_loader_insertion_location/x_ua_meta_tag_multiple_tags.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/rum_loader_insertion_location/x_ua_meta_tag_spaces_around_equals.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/rum_loader_insertion_location/x_ua_meta_tag_with_others.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/lib/cross_agent_tests/rum_loader_insertion_location/x_ua_meta_tag_with_spaces.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/lib/instrumentation/core/zlib.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/newrelic/test/integration/core/zlib.tap.js" />
+    <list default="true" id="8f8632a6-0331-4153-b31b-c0a45695334f" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/test/fixtures/.gitkeep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/test/fixtures/logs/.gitkeep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/node_modules/colors/screenshots/colors.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/.jshintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/node_modules/isstream/.jshintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/node_modules/isstream/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/node_modules/pkginfo/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/node_modules/stack-trace/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/node_modules/async/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/node_modules/colors/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/node_modules/isstream/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/CHANGELOG.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/node_modules/isstream/LICENSE.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/node_modules/async/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/node_modules/eyes/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/node_modules/pkginfo/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/node_modules/stack-trace/License" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/node_modules/colors/MIT-LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/node_modules/eyes/Makefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/node_modules/stack-trace/Makefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/node_modules/async/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/node_modules/cycle/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/node_modules/eyes/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/node_modules/isstream/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/node_modules/pkginfo/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/node_modules/colors/ReadMe.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/node_modules/stack-trace/Readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/test/fixtures/keys/agent2-cert.pem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/test/fixtures/keys/agent2-key.pem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/node_modules/pkginfo/examples/all-properties.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/node_modules/colors/lib/maps/america.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/node_modules/pkginfo/examples/array-argument.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/node_modules/async/lib/async.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/node_modules/colors/tests/basic-test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/lib/winston/config/cli-config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/test/cli-test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/examples/color-message.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/node_modules/colors/lib/colors.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/lib/winston/common.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/node_modules/async/component.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/lib/winston/config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/test/transports/console-test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/lib/winston/transports/console.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/test/container-test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/lib/winston/container.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/examples/couchdb.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/examples/create-file.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/test/custom-formatter-test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/examples/custom-levels.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/test/custom-pretty-print-test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/examples/custom-pretty-print.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/test/custom-timestamp-test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/node_modules/cycle/cycle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/test/transports/daily-rotate-file-test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/lib/winston/transports/daily-rotate-file.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/test/fixtures/scripts/default-exceptions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/node_modules/pkginfo/docs/docco.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/test/exception-test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/examples/exception.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/lib/winston/exception.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/test/fixtures/scripts/exit-on-error.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/node_modules/colors/lib/extendStringPrototype.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/node_modules/eyes/test/eyes-test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/node_modules/eyes/lib/eyes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/test/transports/file-maxfiles-test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/test/transports/file-maxsize-test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/test/transports/file-open-test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/test/transports/file-stress-test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/test/transports/file-tailrolling-test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/test/transports/file-test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/lib/winston/transports/file.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/node_modules/colors/themes/generic-logging.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/test/helpers.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/test/stress/http-server.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/test/transports/http-test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/lib/winston/transports/http.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/test/humanReadableUnhandledException-test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/node_modules/colors/lib/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/node_modules/isstream/isstream.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/test/log-exception-test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/test/fixtures/scripts/log-exceptions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/test/log-filter-test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/test/log-rewriter-test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/test/fixtures/scripts/log-string-exception.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/test/logger-levels-test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/test/logger-test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/lib/winston/logger.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/test/transports/memory-test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/lib/winston/transports/memory.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/node_modules/pkginfo/examples/multiple-properties.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/node_modules/colors/examples/normal-usage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/lib/winston/config/npm-config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/node_modules/pkginfo/examples/object-argument.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/node_modules/async/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/node_modules/colors/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/node_modules/cycle/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/node_modules/eyes/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/node_modules/isstream/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/node_modules/pkginfo/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/node_modules/pkginfo/examples/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/node_modules/pkginfo/examples/subdir/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/node_modules/stack-trace/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/node_modules/pkginfo/test/pkginfo-test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/node_modules/pkginfo/docs/pkginfo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/node_modules/pkginfo/lib/pkginfo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/node_modules/colors/lib/maps/rainbow.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/node_modules/colors/lib/maps/random.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/examples/raw-mode.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/examples/regular-expressions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/node_modules/colors/examples/safe-string.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/node_modules/colors/tests/safe-test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/node_modules/colors/safe.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/examples/silly-levels.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/node_modules/pkginfo/examples/single-property.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/node_modules/stack-trace/lib/stack-trace.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/node_modules/colors/lib/styles.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/node_modules/colors/lib/system/supports-colors.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/lib/winston/config/syslog-config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/node_modules/pkginfo/examples/target-dir.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/node_modules/isstream/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/lib/winston/transports/transport.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/test/transports/transport.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/lib/winston/transports.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/docs/transports.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/node_modules/colors/lib/custom/trap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/test/fixtures/scripts/unhandle-exceptions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/examples/webhook-post.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/test/transports/webhook-test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/lib/winston/transports/webhook.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/test/winston-test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/lib/winston.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/node_modules/colors/lib/custom/zalgo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/winston/node_modules/colors/lib/maps/zebra.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/depd/History.md" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/depd/History.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/morgan/node_modules/depd/History.md" afterPath="$PROJECT_DIR$/node_modules/morgan/node_modules/depd/History.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/depd/Readme.md" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/depd/Readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/morgan/node_modules/depd/Readme.md" afterPath="$PROJECT_DIR$/node_modules/morgan/node_modules/depd/Readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongojs/node_modules/mongodb-core/node_modules/bson/builderror.log" afterPath="$PROJECT_DIR$/node_modules/mongojs/node_modules/mongodb-core/node_modules/bson/builderror.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongojs/node_modules/mongodb-core/node_modules/kerberos/builderror.log" afterPath="$PROJECT_DIR$/node_modules/mongojs/node_modules/mongodb-core/node_modules/kerberos/builderror.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/builderror.log" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/builderror.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/depd/index.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/depd/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/morgan/node_modules/depd/index.js" afterPath="$PROJECT_DIR$/node_modules/morgan/node_modules/depd/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/notes.js" afterPath="$PROJECT_DIR$/notes.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/depd/package.json" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/depd/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/escape-html/package.json" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/escape-html/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/methods/package.json" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/methods/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/path-to-regexp/package.json" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/path-to-regexp/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/proxy-addr/node_modules/ipaddr.js/package.json" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/proxy-addr/node_modules/ipaddr.js/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/qs/package.json" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/qs/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/send/node_modules/mime/package.json" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/send/node_modules/mime/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongojs/node_modules/mongodb-core/package.json" afterPath="$PROJECT_DIR$/node_modules/mongojs/node_modules/mongodb-core/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongojs/node_modules/mongodb-core/node_modules/mkdirp/package.json" afterPath="$PROJECT_DIR$/node_modules/mongojs/node_modules/mongodb-core/node_modules/mkdirp/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongojs/node_modules/mongodb-core/node_modules/mkdirp/node_modules/minimist/package.json" afterPath="$PROJECT_DIR$/node_modules/mongojs/node_modules/mongodb-core/node_modules/mkdirp/node_modules/minimist/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongojs/node_modules/readable-stream/node_modules/core-util-is/package.json" afterPath="$PROJECT_DIR$/node_modules/mongojs/node_modules/readable-stream/node_modules/core-util-is/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/morgan/package.json" afterPath="$PROJECT_DIR$/node_modules/morgan/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/morgan/node_modules/depd/package.json" afterPath="$PROJECT_DIR$/node_modules/morgan/node_modules/depd/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/newrelic/package.json" afterPath="$PROJECT_DIR$/node_modules/newrelic/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/newrelic/node_modules/https-proxy-agent/package.json" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/https-proxy-agent/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/newrelic/node_modules/https-proxy-agent/node_modules/debug/package.json" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/https-proxy-agent/node_modules/debug/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/newrelic/node_modules/https-proxy-agent/node_modules/extend/package.json" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/https-proxy-agent/node_modules/extend/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/newrelic/node_modules/readable-stream/package.json" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/readable-stream/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/newrelic/node_modules/readable-stream/node_modules/core-util-is/package.json" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/readable-stream/node_modules/core-util-is/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/newrelic/node_modules/readable-stream/node_modules/inherits/package.json" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/readable-stream/node_modules/inherits/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/newrelic/node_modules/readable-stream/node_modules/string_decoder/package.json" afterPath="$PROJECT_DIR$/node_modules/newrelic/node_modules/readable-stream/node_modules/string_decoder/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/redis/package.json" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/redis/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/package.json" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/uglify-js/package.json" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/uglify-js/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.js" afterPath="$PROJECT_DIR$/server.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -798,11 +202,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="server.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.036144577" vertical-offset="0" max-vertical-offset="5610">
-              <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="4033" max-vertical-offset="5580">
+              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="log.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/log.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.13673656" vertical-offset="0" max-vertical-offset="1097">
+              <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="production.log" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/production.log">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="650">
+              <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="newrelic_agent.log" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/newrelic_agent.log">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="81" max-vertical-offset="486">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -841,8 +275,8 @@
       <file leaf-file-name="notes.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/notes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1153" max-vertical-offset="3103">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1131" max-vertical-offset="3190">
+              <caret line="53" column="2" selection-start-line="53" selection-start-column="2" selection-end-line="53" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -851,9 +285,11 @@
       <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.702127" vertical-offset="0" max-vertical-offset="798">
-              <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-              <folding />
+            <state vertical-scroll-proportion="-2.106383" vertical-offset="15" max-vertical-offset="798">
+              <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+              <folding>
+                <marker date="1428765683394" expanded="true" signature="0:287" placeholder="{&quot;name&quot;: &quot;Open-Pinboard&quot;...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -883,11 +319,13 @@
       <list>
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/old.js" />
-        <option value="$PROJECT_DIR$/notes.js" />
         <option value="$PROJECT_DIR$/public/index.html" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/newrelic.js" />
+        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/server.js" />
+        <option value="$PROJECT_DIR$/notes.js" />
+        <option value="$PROJECT_DIR$/production.log" />
+        <option value="$PROJECT_DIR$/log.js" />
       </list>
     </option>
   </component>
@@ -899,6 +337,34 @@
     <option name="y" value="-9" />
     <option name="width" value="2578" />
     <option name="height" value="1410" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>CSS</id>
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>JsTestDriverJavaScript</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>CoffeeScript</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -945,34 +411,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Open Pinboard" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="open" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Open Pinboard" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="open" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="node_modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -982,7 +420,7 @@
     <property name="recentsLimit" value="5" />
     <property name="FullScreen" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="options.lastSelected" value="vcs.Subversion" />
+    <property name="options.lastSelected" value="JavaScript.Libraries" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -1070,23 +508,29 @@
       <option name="project" value="LOCAL" />
       <updated>1428741824142</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add new relic &#10;">
+      <created>1428763559655</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1428763559655</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="2578" height="1410" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32944834" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32944834" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32944834" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32944834" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16015625" sideWeight="0.6709753" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16015625" sideWeight="0.6709753" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25951827" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32789433" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12198912" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1118,7 +562,8 @@
     <MESSAGE value="change order of registeration of routes and using body parser&#10;" />
     <MESSAGE value="fix socket.io incorrect usage&#10;" />
     <MESSAGE value="add another / to sepereate between versions&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="add another / to sepereate between versions&#10;" />
+    <MESSAGE value="add new relic &#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new relic &#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1159,18 +604,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.106383" vertical-offset="15" max-vertical-offset="798">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+          <folding>
+            <marker date="1428765683394" expanded="true" signature="0:287" placeholder="{&quot;name&quot;: &quot;Open-Pinboard&quot;...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/notes.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3103">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1131" max-vertical-offset="3190">
+          <caret line="53" column="2" selection-start-line="53" selection-start-column="2" selection-end-line="53" selection-end-column="2" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/newrelic_agent.log">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.702127" vertical-offset="0" max-vertical-offset="798">
-          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="81" max-vertical-offset="486">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/production.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="650">
+          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5580">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="33" />
           <folding />
         </state>
       </provider>
@@ -1183,10 +654,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server.js">
+    <entry file="file://$PROJECT_DIR$/log.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.036144577" vertical-offset="0" max-vertical-offset="5610">
-          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.13673656" vertical-offset="0" max-vertical-offset="1097">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
           <folding />
         </state>
       </provider>
