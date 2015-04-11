@@ -122,6 +122,15 @@ var OpenPinboardApp = function() {
         self.createRoutes();
         self.app = express();
 
+        // init static server
+        var directory = __dirname + '/public';
+        console.log('serving static content from:' + directory);
+        self.app.use(express.static(directory,{ maxAge: 86400000 }));
+        self.app.use(bodyParser.json());       // to support JSON-encoded bodies
+        self.app.use(bodyParser.urlencoded({     // to support URL-encoded bodies
+            extended: true
+        }));
+
         //  Add handlers for the app (from the routes).
         for (var r in self.routes.get) {
             self.app.get(r, self.routes.get[r]);
@@ -132,15 +141,6 @@ var OpenPinboardApp = function() {
         for (var r in self.routes.delete) {
             self.app.delete(r, self.routes.delete[r]);
         }
-
-        // init static server
-        var directory = __dirname + '/public';
-        console.log('serving static content from:' + directory);
-        self.app.use(express.static(directory,{ maxAge: 86400000 }));
-        self.app.use(bodyParser.json());       // to support JSON-encoded bodies
-        self.app.use(bodyParser.urlencoded({     // to support URL-encoded bodies
-            extended: true
-        }));
     };
 
 
